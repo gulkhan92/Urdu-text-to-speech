@@ -1,10 +1,9 @@
-# Urdu Text-to-Speech Pipeline 🗣️🇺🇷
+# Urdu Text-to-Speech Pipeline
 
-Modular pipeline for **Urdu ASR → TTS** using state-of-the-art models:
-- **Transcription**: [Whisper-small](https://openai.com/research/whisper) (OpenAI)
-- **Synthesis**: [DeepSpeak-v1](https://huggingface.co/mahwizzzz/deepspeak-v1) (voice cloning)
+Modular Python package for Urdu ASR and TTS processing using Whisper and DeepSpeak-v1.
 
-![Pipeline](https://i.imgur.com/demo-pipeline.png)
+Core components refactored into src/ modules with Pydantic validation.
+Streamlit web interface included.
 
 ## 🚀 Quick Start
 
